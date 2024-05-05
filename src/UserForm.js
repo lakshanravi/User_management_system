@@ -8,7 +8,7 @@ const UserForm = ({ addUser,updateUser,submitted,data,isEdit })=>{
 
   //state variable dekk hadagnna oni ara input wlin user input gnna
   //id kynne varable ek setId kynne wenas wenna oni function ekk.useState() kynne react hook ekk. react lifecycle ek manage krnna udaw wenw.useState() paawichchi krl variable ekk declare krgttot ek state variable ekk . nikn ghuwoth ek normal variable ekk
-const[id,setId]= useState(0);
+const[id,setId]= useState(1);
 const[name,setName]= useState('');
 //state value ek 0 ema dala tynne e initial value ek
 //dan uda hdpu stste variable deka value widiht pass krnw yt input part wlt
@@ -41,7 +41,7 @@ useEffect(()=>{
     }}
 
 >
-  {/* grid ek athule tw grid ekk nikn div ek thula tw div ekk wge. xs kynne extra small. phone ekk wge small display ekk run kloth nm mekt sampuurna width ekm yodagnna kyl. typography nikn paragraph tag ek wge. h1 widihe ekk hadagena tynne */}
+  {/* grid ek athule tw grid ekk nikn div ek thula tw div ekk wge.grid use klama wadiya CSS oni nh. xs kynne extra small. phone ekk wge small display ekk run kloth nm mekt sampuurna width ekm yodagnna kyl. typography nikn paragraph tag ek wge. h1 widihe ekk hadagena tynne */}
     <Grid item xs ={12}>
     <Typography component={'h1'}sx={{
         color:'#000000'}}>User Form
