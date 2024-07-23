@@ -1,44 +1,4 @@
-//get APi eke data set ek methana hdmu. mewa thama request klama frontend eke penwnne API ek mgin pasuwa. me tika comment krnw dan DB ekk hdn nisa mewt
 
-// const users = [
-//   {
-// id:1,
-// name:'prasad',
-//   },
-//   {
-//     id:2,
-//     name:'prasadi',
-//    },
-//   {
-//         id:3,
-//         name:'lakshan',
-//    },
-// ];
-//dan me data set ek return krnn controller function ekk hdnn oni
-
-//usersla okkoma gnna function ekk. illna de return krnw me call back function eke
-// const getUsers= (cb) =>{
-//   cb(users);
-// };
-
-// //id pass krl ek user kenek vitrk gnna hdnna
-// const getUserById= (id,cb) =>{
-//   const user = users.find(user=>user.id == id);
-//   cb(user);
-// };
-// //uda hoyagnnw userwa users.find mgin.. userge id ek samanad blnw api pass krn id eket
-// //pasuwa cll back function ekedi e userw return krnw
-
-// exports.getUsers= getUsers;
-// exports.getUserById=getUserById;
-
-//uda tika klin widiht adaala ew
-
-
-
-
-//ape services tika liymu den(crud -create,update,retreive,delete)services tikt . event 4 t
-//model ek import krn imu hadaagtta
 const { response } = require('express');
 const User = require('./model');
 
